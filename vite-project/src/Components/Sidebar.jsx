@@ -11,7 +11,7 @@ const Sidebar = (props) => {
 
 <h2>{data?.title}</h2>
 <p className='description'>description</p>
-<div>
+<div className='descriptionContainer'>
 <p>{data?.explanation} </p>
     </div>
     <button onClick={modalFunction}>

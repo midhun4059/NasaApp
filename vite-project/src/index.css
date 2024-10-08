@@ -173,6 +173,12 @@ to{
 }
 }
 
+.descriptionContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
 
 .description{
  font-weight:200rem ;
